@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/crypto_img"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/crypto_rank"
+       android:layout_toEndOf="@+id/crypto_img"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/crypto_name"
+        android:layout_toEndOf="@+id/crypto_img"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/crypto_price"
+        android:layout_toEndOf="@+id/crypto_img"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        />
+    <TextView
+        android:layout_below="@+id/crypto_img"
+        android:layout_width="wrap_content"
+        android:id="@+id/high_24h"
+        android:layout_marginStart="15dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_toEndOf="@+id/high_24h"
+        android:id="@+id/low_24h"
+        android:layout_below="@+id/crypto_img"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+
+</RelativeLayout>
